@@ -1,3 +1,7 @@
+import HomeContainer from "@/containers/home";
+
+
+
 export default function Home() {
-  return <div>Salam</div>;
+  return <HomeContainer/>
 }
