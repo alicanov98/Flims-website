@@ -1,11 +1,16 @@
+import { Header } from "@/components/header";
+import "@/styles/reset.css";
 import "@/styles/global.css";
-import "@/styles/reset.css"
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head/>
-      <body >{children}</body>
+      <body >
+        <Header/>
+        <main>{children}</main>
+      </body>
     </html>
   )
 }
